@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; /*Esto quita los puntos de las listas*/
+    text-decoration: none; /*Esto quita el subrayado de los enlaces*/
+}
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #222222;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 15px 3%;
+    color: white;
+}
+
+header h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.navlist{
+    display: flex; 
+    position: sticky;
+}
+
+.navlist a{
+    margin-left: 60px; 
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent; 
+    transition: all .5s ease;
+    color: white;
+}
+
+.navlist a:hover{   
+    color: #C03125;
+
+}
+
+header h4{
+    color: white;
+    font-family: 50px;
+    transition: all 0.3s;
+}
+
+header h3:hover{
+    color: #C03125;
+}
+
+section{
+    width: 60vw;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+    margin: 35px auto 40px auto;
+}
+
+
+.contenedor{
+    height: 100vH;
+    background-image: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.916);
+    color: white;
+}
+
+.contenedor h2{
+    font-size: 50px;
+}
