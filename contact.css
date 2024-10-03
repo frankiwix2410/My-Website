@@ -37,6 +37,13 @@ header{
     
 }
 
+img{
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px rgba(93, 93, 93, 0.688);
+}
+
 header h3{
     font-size: 30px;
     font-weight: 600;
@@ -92,6 +99,7 @@ form{
 .text-div p{
     font-size: 20px;
     margin-top: 15px;
+    padding-bottom: 30px;
     line-height: 1.3;
 }
 
@@ -103,6 +111,8 @@ text-div{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .contenedor{
     height: auto;
